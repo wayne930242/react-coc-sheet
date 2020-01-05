@@ -12,8 +12,8 @@ get-damage-bonus = (str, siz) ->
   | 2   <= value < 65  => -2
   | 65  <= value < 85  => -1
   | 85  <= value < 125 =>  0
-  | 125 <= value < 165 => droll.roll \1d4 .total
-  | 165 <= value < 205 => droll.roll \1d6 .total
+  | 125 <= value < 165 => '1d4'
+  | 165 <= value < 205 => '1d6'
   | otherwise          => NaN
 
 get-build = (str, siz) ->
