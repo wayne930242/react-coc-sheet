@@ -4,4 +4,4 @@
 
 -- H. P. Lovecraft, the Call of Cthulhu
 
-* [前端網址連結](http://caasih.net/react-coc-sheet/)
+* [前端網址連結](http://wayneh.tw/react-coc-sheet/)
